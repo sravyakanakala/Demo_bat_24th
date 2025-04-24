@@ -30,6 +30,7 @@ jobs:
         run: |
          cmd /c StartEventScripterRemote.bat
       - name: PerfMon
-        run: PerfMon.bat
+        run: |
+         cmd /c PerfMon.bat
 
     
