@@ -28,5 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: PerfMon
         run: PerfMon.bat
+      - name: Run the batch file
+        run: StartEventScripterRemote.bat
 
     
